@@ -3,7 +3,7 @@ import styles from './Options.module.css';
 export const Options =({ resetFeedback, totalFeedback, addFeedback, feedback}) => {
     return (
         <div className={styles.options}>
-            {Object.keys(ffedback).map(el => (
+            {Object.keys(feedback).map(el => (
                 <button onClick={() => addFeedback(el)} key={el}>
                     {el}
                 </button>
