@@ -5,9 +5,8 @@
 }
 .options button {
     border-radius: 10px;
-    border: none;
-    background-color: rgb(178, 72, 72);
-    color: white;
+    border: 1px black;
+    color: black;
     width: 78px;
     line-height: 0;
     height: 32px;
